@@ -50,7 +50,7 @@
         <ul>
             {#each NAVIGATION_LIST as {name, href, icon}}
                 <li class:wide={expanded == true}>
-                    <a {href} class:expanded class={`${href === currentPageUrl ? 'highlight' : ''}`}>
+                    <a {href} class:expanded class="{`${href === currentPageUrl ? 'highlight' : ''}`} pages" class:collapsed={expand != true}>
                         {@html icon}
                         {name}
                     </a>
@@ -97,7 +97,20 @@
         text-align: center;
         border-radius: 50px;
         width: 70px;
+        animation-name: collapse;
+        animation-duration: 1s;
     }
+
+    .collapsed{
+        transition: width 1s, font-size 1s ease;
+
+    }
+
+    @keyframes collapse{
+        from {width: 200px;}
+        to {width: 70px;}
+    }
+
 
     a:hover{
         color: white;
@@ -114,6 +127,7 @@
         flex-direction:column;
         gap:200px;
     }
+
 
     .highlight {
         background-color: black;
@@ -150,8 +164,9 @@
     }
 
     @keyframes expand{
-        from {width: 100px;}
+        from {width: 70px;}
         to {width: 200px;}
     }
+
 
 </style>

@@ -42,9 +42,14 @@
 	side {
 		box-shadow: 1px 1px 6px 0px gray;
 		height: 100vh;
+		position: fixed;
+		background-color: white;
 	}
 
 	main {
-		margin-left: 20px;
+		margin-left: 120px;
+		width: 90vi;
 	}
+
+	
 </style>
