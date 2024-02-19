@@ -50,7 +50,7 @@
         <ul>
             {#each NAVIGATION_LIST as {name, href, icon}}
                 <li class:wide={expanded == true}>
-                    <a {href} class:expanded class="{`${href === currentPageUrl ? 'highlight' : ''}`} pages" class:collapsed={expand != true}>
+                    <a {href} class:expanded class={`${href === currentPageUrl ? 'highlight' : ''}`}>
                         {@html icon}
                         {name}
                     </a>
@@ -101,7 +101,7 @@
         animation-duration: 1s;
     }
 
-    .collapsed{
+    a{
         transition: width 1s, font-size 1s ease;
 
     }
