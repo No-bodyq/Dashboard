@@ -34,8 +34,10 @@
     .card{
         border:none;
         box-shadow: 0px 0px 4px 0px;
-        padding: 30px;
+        padding: 28px;
         border-radius: 15px;
+        width: 255px;
+        height:144px;
     }
 
     .title{

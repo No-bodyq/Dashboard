@@ -168,5 +168,29 @@
         to {width: 200px;}
     }
 
+    @media screen and (max-width: 1000px){
+		ul{
+            flex-direction: row;
+            margin: -40px 10px;
+        }
+        .side{
+            flex-direction: row;
+        }
+
+        .wide{
+            animation-name: expand;
+            animation-duration: 1s;
+            width: 150px;
+        }
+        @keyframes expand{
+            from {width: 70px;}
+            to {width: 150px;}
+        }
+        @keyframes collapse{
+            from {width: 150px;}
+            to {width: 70px;}
+        }
+	}
+
 
 </style>

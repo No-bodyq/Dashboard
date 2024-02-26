@@ -49,6 +49,24 @@
 	main {
 		margin-left: 120px;
 		width: 90vi;
+		height: 100vh;
+	}
+
+	@media screen and (max-width: 1000px){
+		body{
+			grid-template-columns: 1fr;
+			grid-template-rows: 1fr 2fr;
+		}
+		side{
+			display: flex;
+			padding-left: 20px;
+			height: 80px;
+			width: 100vi;
+		}
+		main{
+			margin-top: 80px;
+			margin-left: 50px;
+		}
 	}
 
 	

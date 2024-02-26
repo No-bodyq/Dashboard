@@ -52,14 +52,14 @@ input {
 }
 
 button {
-    margin-left: 0.5em;
-    padding: 0.5em 1em;
+    margin-left: -50px;
+    padding: 4px 17px;
     cursor: pointer;
-    position: relative;
-    right: 50px;
-    background-color: white;
+    color: black;
     border: none;
     width:10px;
+    text-align: center;
+    border-radius: 15px;
 }
 
 .right{

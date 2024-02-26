@@ -42,4 +42,13 @@
         align-items: center;
         margin: 30px -30px;
     }
+
+    @media(max-width: 1000px){
+        .container{
+            width: 200vi;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+    }
 </style>
