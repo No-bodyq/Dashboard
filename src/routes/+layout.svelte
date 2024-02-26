@@ -61,7 +61,7 @@
 			display: flex;
 			padding-left: 20px;
 			height: 80px;
-			width: 100vi;
+			width: 100%;
 		}
 		main{
 			margin-top: 80px;
