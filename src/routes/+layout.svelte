@@ -40,10 +40,9 @@
         width: 100vi;
 	}
 	side {
-		box-shadow: 1px 1px 6px 0px gray;
 		height: 100vh;
 		position: fixed;
-		background-color: white;
+		background-color: black;
 	}
 
 	main {

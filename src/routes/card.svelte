@@ -32,17 +32,23 @@
     }
 
     .card{
-        border:none;
-        box-shadow: 0px 0px 4px 0px;
+        background-color: rgb(7, 7, 7);
+        color: white;
         padding: 28px;
-        border-radius: 15px;
         width: 255px;
         height:144px;
+        border-radius: 4px;
     }
 
     .title{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    @media screen and (max-width: 1000px){
+        .card{
+            height: 200px;
+        }
     }
 </style>
