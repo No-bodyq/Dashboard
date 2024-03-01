@@ -46,16 +46,19 @@ input {
     flex: 1;
     padding: 0.5em;
     width: 500px;
-    box-shadow: 0.5px 0.5px 6px 0px gray;
+    background-color: rgb(7, 7, 7);
+    color: white;
     outline: none;
     border: none;
+    border-radius: 20px;
 }
+
 
 button {
     margin-left: -50px;
     padding: 4px 17px;
     cursor: pointer;
-    color: black;
+    color: white;
     border: none;
     width:10px;
     text-align: center;
