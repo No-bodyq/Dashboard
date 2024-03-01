@@ -75,7 +75,7 @@
     a{
         text-decoration: none;
         padding: 15px;
-        color: black;
+        color: white;
         border-radius: 50px;
         width: 100px;
         overflow: hidden;
@@ -107,8 +107,8 @@
 
 
     a:hover{
-        color: white;
-        background-color: black;
+        color: black;
+        background-color: white;
     }
     
     li > a{
@@ -124,8 +124,8 @@
 
 
     .highlight {
-        background-color: black;
-        color: white;
+        background-color: white;
+        color: black;
     }
 
     #expand-container{
@@ -141,7 +141,7 @@
     }
 
     #expand:hover{
-        background-color: black;
+        background-color: white;
     }
 
     .expanded{
